@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    background: #4776E6;
+    background: linear-gradient(to right, #8E54E9, #4776E6); 
+}
+#container {    
+    position: relative;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: #ffeb3b;
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+    border-radius: 50%;
+}
+
+#player1, #player2 {
+    width: 250px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#player1 {
+    background-color: #711104;
+    top: 0px;    
+}
+
+#player2 {
+    background-color: rgb(46, 5, 85);
+    bottom: 0px;
+}
